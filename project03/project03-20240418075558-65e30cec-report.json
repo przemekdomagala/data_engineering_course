@@ -1,0 +1,77 @@
+{
+    "student_id": 415499,
+    "lab_id": "project03",
+    "check_number": 1,
+    "score": 76.0,
+    "tests": [
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex01_all_data.json",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex0[1,2]_no_nulls.csv",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex03_descriptions.json",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex04_joined.json",
+            "rule_points": 3.0,
+            "max_rule_points": 3.0
+        },
+        {
+            "type": "compare_json_dict",
+            "file_name": "proj3_ex05_*.json",
+            "rule_points": 0.0,
+            "max_rule_points": 4.0,
+            "message": "proj3_ex05_volvo_xc60_b4.json: incorrect values in dictionary"
+        },
+        {
+            "type": "compare_json_dict",
+            "file_name": "proj3_ex06_aggregations.json",
+            "rule_points": 4.0,
+            "max_rule_points": 4.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex07_groups.csv",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex08_pivot.pkl",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex08_melt.csv",
+            "rule_points": 2.0,
+            "max_rule_points": 2.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj3_ex08_stats.pkl",
+            "rule_points": 0.0,
+            "max_rule_points": 2.0,
+            "message": "grading procedure caught FileNotFoundError: [Errno 2] No such file or directory: 'proj3_ex08_stats.pkl'"
+        }
+    ],
+    "results": {
+        "points": 19.0,
+        "max_points": 25.0,
+        "score": 76.0,
+        "max_score": 100.0
+    },
+    "file_list": ".:\ntotal 20052\n-rw-r--r-- 1 student root         729 Apr 18 07:56 proj1_ex01.csv\n-rw-r--r-- 1 student root        1052 Apr 18 07:56 proj1_ex05.pkl\n-rw-r--r-- 1 student root        1471 Apr 18 07:56 proj1_ex06.json\n-rw-r--r-- 1 student root        1120 Apr 18 07:56 proj2_data.csv\n-rw-r--r-- 1 student root          52 Apr 18 07:56 proj2_scale.txt\n-rw-r--r-- 1 student root        1393 Apr 18 07:56 proj3_data1.json\n-rw-r--r-- 1 student root        1373 Apr 18 07:56 proj3_data2.json\n-rw-r--r-- 1 student root        1374 Apr 18 07:56 proj3_data3.json\n-rw-r--r-- 1 student student     2044 Apr 18 07:56 proj3_ex01_all_data.json\n-rw-r--r-- 1 student student       29 Apr 18 07:56 proj3_ex02_no_nulls.csv\n-rw-r--r-- 1 student student     2629 Apr 18 07:56 proj3_ex03_descriptions.json\n-rw-r--r-- 1 student student     3955 Apr 18 07:56 proj3_ex04_joined.json\n-rw-r--r-- 1 student student      275 Apr 18 07:56 proj3_ex05_audi_a3_1.5_tfsi.json\n-rw-r--r-- 1 student student      275 Apr 18 07:56 proj3_ex05_audi_q5_45_tfsi_quattro.json\n-rw-r--r-- 1 student student      288 Apr 18 07:56 proj3_ex05_bmw_3_series_2.0l_twinpower_turbo.json\n-rw-r--r-- 1 student student      283 Apr 18 07:56 proj3_ex05_fiat_500_0.9_twinair.json\n-rw-r--r-- 1 student student      259 Apr 18 07:56 proj3_ex05_fiat_panda_1.2_8v.json\n-rw-r--r-- 1 student student      259 Apr 18 07:56 proj3_ex05_fiat_punto_1.2_8v.json\n-rw-r--r-- 1 student student      287 Apr 18 07:56 proj3_ex05_ford_mustang_2.3l_ecoboost.json\n-rw-r--r-- 1 student student      267 Apr 18 07:56 proj3_ex05_int_audi_a3_1.5_tfsi.json\n-rw-r--r-- 1 student student      268 Apr 18 07:56 proj3_ex05_int_audi_q5_45_tfsi_quattro.json\n-rw-r--r-- 1 student student      281 Apr 18 07:56 proj3_ex05_int_bmw_3_series_2.0l_twinpower_turbo.json\n-rw-r--r-- 1 student student      276 Apr 18 07:56 proj3_ex05_int_fiat_500_0.9_twinair.json\n-rw-r--r-- 1 student student      262 Apr 18 07:56 proj3_ex05_int_fiat_panda_1.2_8v.json\n-rw-r--r-- 1 student student      262 Apr 18 07:56 proj3_ex05_int_fiat_punto_1.2_8v.json\n-rw-r--r-- 1 student student      279 Apr 18 07:56 proj3_ex05_int_ford_mustang_2.3l_ecoboost.json\n-rw-r--r-- 1 student student      276 Apr 18 07:56 proj3_ex05_int_opel_corsa_1.2_turbo.json\n-rw-r--r-- 1 student student      278 Apr 18 07:56 proj3_ex05_int_peugeot_208_1.2_puretech.json\n-rw-r--r-- 1 student student      264 Apr 18 07:56 proj3_ex05_int_peugeot_3008_1.6_thp.json\n-rw-r--r-- 1 student student      280 Apr 18 07:56 proj3_ex05_int_porsche_911_3.0l_twin_turbo_v6.json\n-rw-r--r-- 1 student student      275 Apr 18 07:56 proj3_ex05_int_renault_clio_1.5_dci.json\n-rw-r--r-- 1 student student      276 Apr 18 07:56 proj3_ex05_int_renault_megane_1.5_dci.json\n-rw-r--r-- 1 student student      269 Apr 18 07:56 proj3_ex05_int_seat_leon_1.5_tsi.json\n-rw-r--r-- 1 student student      274 Apr 18 07:56 proj3_ex05_int_volkswagen_golf_1.5_tsi.json\n-rw-r--r-- 1 student student      275 Apr 18 07:56 proj3_ex05_int_volkswagen_passat_2.0_tdi.json\n-rw-r--r-- 1 student student      276 Apr 18 07:56 proj3_ex05_int_volvo_s60_t8_polestar_engineered.json\n-rw-r--r-- 1 student student      251 Apr 18 07:56 proj3_ex05_int_volvo_xc60_b4.json\n-rw-r--r-- 1 student student      284 Apr 18 07:56 proj3_ex05_opel_corsa_1.2_turbo.json\n-rw-r--r-- 1 student student      283 Apr 18 07:56 proj3_ex05_peugeot_208_1.2_puretech.json\n-rw-r--r-- 1 student student      272 Apr 18 07:56 proj3_ex05_peugeot_3008_1.6_thp.json\n-rw-r--r-- 1 student student      285 Apr 18 07:56 proj3_ex05_porsche_911_3.0l_twin_turbo_v6.json\n-rw-r--r-- 1 student student      283 Apr 18 07:56 proj3_ex05_renault_clio_1.5_dci.json\n-rw-r--r-- 1 student student      284 Apr 18 07:56 proj3_ex05_renault_megane_1.5_dci.json\n-rw-r--r-- 1 student student      276 Apr 18 07:56 proj3_ex05_seat_leon_1.5_tsi.json\n-rw-r--r-- 1 student student      282 Apr 18 07:56 proj3_ex05_volkswagen_golf_1.5_tsi.json\n-rw-r--r-- 1 student student      283 Apr 18 07:56 proj3_ex05_volkswagen_passat_2.0_tdi.json\n-rw-r--r-- 1 student student      284 Apr 18 07:56 proj3_ex05_volvo_s60_t8_polestar_engineered.json\n-rw-r--r-- 1 student student      248 Apr 18 07:56 proj3_ex05_volvo_xc60_b4.json\n-rw-r--r-- 1 student student       99 Apr 18 07:56 proj3_ex06_aggregations.json\n-rw-r--r-- 1 student student      371 Apr 18 07:56 proj3_ex07_groups.csv\n-rw-r--r-- 1 student student     6601 Apr 18 07:56 proj3_ex08_melt.csv\n-rw-r--r-- 1 student student      956 Apr 18 07:56 proj3_ex08_pivot.pkl\n-rw-r--r-- 1 student root        2511 Apr 18 07:56 proj3_more_data.json\n-rw-r--r-- 1 student root         645 Apr 18 07:56 proj3_params.json\n-rw-r--r-- 1 student root         257 Apr 18 07:56 proj3_statistics.csv\n-rw-r--r-- 1 student root      173763 Apr 18 07:56 proj4_countries.geojson\n-rw-r--r-- 1 student root          49 Apr 18 07:56 proj4_params.json\n-rw-r--r-- 1 student root      753523 Apr 18 07:56 proj4_points.geojson\n-rw-r--r-- 1 student root         250 Apr 18 07:56 proj5_params.json\n-rw-r--r-- 1 student root     2351182 Apr 18 07:56 proj5_sensors.pkl\n-rw-r--r-- 1 student root      218035 Apr 18 07:56 proj5_timeseries.csv\n-rw-r--r-- 1 student root    16781312 Apr 18 07:56 proj6_readings.sqlite\n-rw-r--r-- 1 student root        5843 Apr 18 07:56 project03.py\n"
+}

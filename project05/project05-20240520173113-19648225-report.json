@@ -1,0 +1,45 @@
+{
+    "student_id": 415499,
+    "lab_id": "project05",
+    "check_number": 3,
+    "score": 100.0,
+    "tests": [
+        {
+            "type": "compare_contents",
+            "file_name": "proj5_ex01.pkl",
+            "rule_points": 4.0,
+            "max_rule_points": 4.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj5_ex02.pkl",
+            "rule_points": 3.0,
+            "max_rule_points": 3.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj5_ex03.pkl",
+            "rule_points": 4.0,
+            "max_rule_points": 4.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj5_ex04.pkl",
+            "rule_points": 4.0,
+            "max_rule_points": 4.0
+        },
+        {
+            "type": "compare_contents",
+            "file_name": "proj5_ex05.pkl",
+            "rule_points": 6.0,
+            "max_rule_points": 6.0
+        }
+    ],
+    "results": {
+        "points": 21.0,
+        "max_points": 21.0,
+        "score": 100.0,
+        "max_score": 100.0
+    },
+    "file_list": ".:\ntotal 27052\n-rw-r--r-- 1 student root         729 May 20 17:31 proj1_ex01.csv\n-rw-r--r-- 1 student root        1052 May 20 17:31 proj1_ex05.pkl\n-rw-r--r-- 1 student root        1471 May 20 17:31 proj1_ex06.json\n-rw-r--r-- 1 student root        1120 May 20 17:31 proj2_data.csv\n-rw-r--r-- 1 student root          52 May 20 17:31 proj2_scale.txt\n-rw-r--r-- 1 student root        1393 May 20 17:31 proj3_data1.json\n-rw-r--r-- 1 student root        1373 May 20 17:31 proj3_data2.json\n-rw-r--r-- 1 student root        1374 May 20 17:31 proj3_data3.json\n-rw-r--r-- 1 student root        2511 May 20 17:31 proj3_more_data.json\n-rw-r--r-- 1 student root         645 May 20 17:31 proj3_params.json\n-rw-r--r-- 1 student root         257 May 20 17:31 proj3_statistics.csv\n-rw-r--r-- 1 student root      173763 May 20 17:31 proj4_countries.geojson\n-rw-r--r-- 1 student root         118 May 20 17:31 proj4_params.json\n-rw-r--r-- 1 student root      753523 May 20 17:31 proj4_points.geojson\n-rw-r--r-- 1 student student   176382 May 20 17:31 proj5_ex01.pkl\n-rw-r--r-- 1 student student    26136 May 20 17:31 proj5_ex02.pkl\n-rw-r--r-- 1 student student    59517 May 20 17:31 proj5_ex03.pkl\n-rw-r--r-- 1 student student  2104644 May 20 17:31 proj5_ex04.pkl\n-rw-r--r-- 1 student student  4976888 May 20 17:31 proj5_ex05.pkl\n-rw-r--r-- 1 student root         250 May 20 17:31 proj5_params.json\n-rw-r--r-- 1 student root     2351182 May 20 17:31 proj5_sensors.pkl\n-rw-r--r-- 1 student root      218035 May 20 17:31 proj5_timeseries.csv\n-rw-r--r-- 1 student root    16781312 May 20 17:31 proj6_readings.sqlite\n-rw-r--r-- 1 student root        1855 May 20 17:31 project05.py\n"
+}
