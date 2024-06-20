@@ -1,1 +1,1 @@
-# Spatial data
+# Spatial data.
