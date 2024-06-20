@@ -1,1 +1,1 @@
-# Project focused on data cleaning
+# Project focused on learning data cleaning.
